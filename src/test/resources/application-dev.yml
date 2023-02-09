@@ -1,0 +1,25 @@
+spring:
+  profiles: dev
+
+config:
+  web:
+    baseUrl: https://www.amazon.com/
+  android:
+    appPackage: "com.loginmodule.learning"
+    appActivity: "com.loginmodule.learning.activities.LoginActivity"
+    appPath: /APP/app.apk
+    name: "Login Register"
+
+user:
+  invalid:
+    email: random_email
+    password: passwordSalah
+    phone: +0008371023
+  not_registered:
+    email: notregistered@email.com
+    password: 210922
+    phone: +62892736481
+  none:
+    email:
+    password:
+    phone:
